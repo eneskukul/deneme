@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Canlı Destek Sistemi</string>
+
+    <string name="font_normal">fonts/Gilroy/gilroy_light.ttf</string>
+    <string name="font_medium">fonts/Gilroy/gilroy_medium.ttf</string>
+    <string name="font_semibold">fonts/Gilroy/gilroy_bold.ttf</string>
+    <string name="font_bold">fonts/Gilroy/gilroy_black.ttf</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

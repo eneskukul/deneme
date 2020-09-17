@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomButton">
+        <attr name="borderWidth" format="dimension"></attr>
+        <attr name="radius" format="dimension"></attr>
+        <attr name="pressedColor" format="color"></attr>
+        <attr name="pressedBorderColor" format="color"></attr>
+        <attr name="pressedTextColor" format="color"></attr>
+        <attr name="unpressedColor" format="color"></attr>
+        <attr name="unpressedBorderColor" format="color"></attr>
+        <attr name="unpressedTextColor" format="color"></attr>
+    </declare-styleable>
+</resources>

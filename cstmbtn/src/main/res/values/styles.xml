@@ -1,0 +1,93 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSecondary">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@color/material_grey_50</item>
+        <item name="android:textColorPrimary">@color/white</item><!-- Action Bar Text Color -->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="cardViewStyle">
+        <item name="cardBackgroundColor">@color/solidBlack</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="cardCornerRadius">3.0dip</item>
+        <item name="cardElevation">3.0dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="contentPadding">5.0dip</item>
+    </style>
+
+    <style name="linearLayoutStyle">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="linearLayoutHorizontalStyle">
+        <item name="android:background">@color/solidBlack</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+
+    <style name="textViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="spinnerStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+    </style>
+
+    <style name="AlerterStyle">
+        <item name="android:textSize">@dimen/font_size_normal</item>
+        <item name="android:textColor">@color/white</item>
+        <!--        <item name="android:fontFamily">fonts/Poppins/Poppins-Regular.ttf</item>-->
+        <!--        <item name="fontPath">fonts/Poppins/Poppins-Regular.ttf</item>-->
+
+    </style>
+
+
+    <style name="FloatingHintTextStyle" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">@dimen/font_size_small</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+
+    <style name="ToolbarStyleWithTitle">
+        <item name="android:textSize">@dimen/font_size_normal</item>
+        <item name="android:textColor">@color/textDark</item>
+        <!--        <item name="fontPath">fonts/Montserrat/Montserrat-SemiBold.ttf</item>-->
+        <!--        <item name="fontFamily">@font/montserrat_bold</item>-->
+
+    </style>
+
+    <style name="ToolbarStyleWithSubTitle">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:textColor">@color/gray</item>
+
+    </style>
+
+    <style name="BottomNavigationViewTextStyle">
+        <item name="android:textSize">@dimen/font_size_normal</item>
+        <!--        <item name="fontFamily">@font/montserrat_medium</item>-->
+    </style>
+
+</resources>
